@@ -11,7 +11,7 @@ while True:
         file_path = input("Enter the .txt file path: ")
         break
     else:
-        print("ncorrect input. Please enter 'y' or 'n'.")
+        print("Incorrect input. Please enter 'y' or 'n'.")
 
 # Vérifie que le fichier est bien de type .txt
 if not file_path.endswith(".txt"):
